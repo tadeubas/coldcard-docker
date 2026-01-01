@@ -1,6 +1,6 @@
 # Coldcard docker container
 
-Make sure you have [Docker Desktop or Docker Engine](https://docs.docker.com/desktop/) installed.
+Make sure you have [Docker Desktop or Docker Engine](https://docs.docker.com/desktop/) installed (don't forget to add your user to the docker group `sudo usermod -aG docker $USER` than logout and login again).
 
 Then just `./build.sh` and `./run.sh`
 
