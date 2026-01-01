@@ -1,8 +1,8 @@
 # Coldcard docker container
 
-Make sure you have docker installed.
+Make sure you have [Docker Desktop or Docker Engine](https://docs.docker.com/desktop/) installed.
 
-Then just `./build.sh` and `./run.sh`, then you'll enter the container, then `./docker_init.sh`
+Then just `./build.sh` and `./run.sh`
 
 If this error happens:
 
@@ -15,6 +15,6 @@ X Error of failed request:  BadValue (integer parameter out of range for operati
   Current serial number in output stream:  202
 ```
 
-run `./docker_init.sh` until it works.
+run again `./run.sh` until it works.
 
 If it opens with tje screen showing garbage, run again until it works
